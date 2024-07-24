@@ -1,0 +1,32 @@
+# Файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Файлы атрибутов
+._*
+
+# Файлы Spotlight
+.Spotlight-V100
+
+# Файлы резервных копий
+*.bak
+*.tmp
+
+# Директории временных файлов
+.TemporaryItems
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Директория для пользовательских настроек IDE (например, для VSCode)
+.vscode/
+
+# Директории Node
+node_modules/
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

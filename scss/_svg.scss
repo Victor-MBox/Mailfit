@@ -1,0 +1,55 @@
+.logo-svg {
+	& path {
+		fill: $title-cl;
+		transition: 0.3s;
+	}
+	&:hover path {
+		fill: $main-cl;
+	}
+}
+
+.user-svg {
+	& path,
+	rect {
+		stroke: #151515;
+		transition: 0.3s;
+	}
+	&:hover path,
+	&:hover rect {
+		stroke: $main-cl;
+	}
+}
+
+.title-arrow {
+	width: 100%;
+	height: 100%;
+	& path,
+	circle {
+		stroke: #151515;
+		transition: 0.3s;
+	}
+	circle {
+		fill: #f4f3ee;
+	}
+	&:hover path,
+	&:hover circle {
+		stroke: $main-cl;
+	}
+}
+
+.open-close {
+	transition: 0.3s;
+
+	& path,
+	rect,
+	circle {
+		stroke: #151515;
+		transition: 0.3s;
+	}
+
+	&:hover path,
+	&:hover rect,
+	&:hover circle {
+		stroke: $main-cl;
+	}
+}
